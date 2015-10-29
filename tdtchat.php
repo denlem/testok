@@ -17,22 +17,18 @@
             .chatconatiner{
                 width: 1200px;
                 height: 500px;
-/*                margin-left: 100px;
-                margin-top: 100px;*/
             }
             .frchat{
                 width: 100%;
                 height: 100%;
-                /*display: block;*/
             }
         </style>
         <?php
-//            $h = '048d4934d315d3d915bf78d99983996d49868633';
-            $h = 'c109658d03d7d51a9d2c8f7b95334915871f3a32';
-            $lng = 'ru';
+            $h = 'f62bc7461e146b6209a4c0f38d679e89c16d9aa2';
+            $lng = 'ru'; 
         ?>
         <div id="chatconatiner" class="chatconatiner">
-            <iframe class="frchat" frameborder="0" src="http://ajaxdev/projects/tdt/chat.php?h=<?=$h;?>&lng=<?=$lng;?>" ></iframe>
+            <iframe class="frchat" frameborder="0" src="http://chatdev.trafsync.com/projects/tdt/chat.php?h=<?=$h;?>&lng=<?=$lng;?>" ></iframe>
         </div>
     </body>
 </html>
